@@ -1,15 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	number1 := "hello"
-	number := "world"
-	fmt.Println(number1 + number)
-
-	fmt.Println(number1 + number)
+	n := 7
+	m := 6
+	fmt.Print((n + m))
 }
 
-// go build main.go 2 lik ga o'tkazish
+// go build main.go 2 lik ga o'tkazishr
 // ./main 2 lik code ni run qilish
 // go run main.go
