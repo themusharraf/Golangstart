@@ -7,7 +7,8 @@ import (
 func main() {
 	n := 7
 	m := 6
-	fmt.Print((n + m))
+	res := m + n
+	fmt.Print(res)
 }
 
 // go build main.go 2 lik ga o'tkazishr
